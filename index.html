@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment of Kansas State through the Years</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/44c424228d.js" crossorigin="anonymous"></script>
+
+<!--Highcharts-->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+
+
+
+
+
+</head>
+<body>
+<!--Facebook-->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="KgOlIKbU"></script>
+
+
+
+
+    <!--Headline-->
+    <div id="intro">
+        <h1>Enrollment of Kansas State Univeristy through the Years</h1>
+        <p class="byline">Paxton Gordon | For MC 316</p>
+        <p class="date">November 16, 2020</p>
+    </div>
+    <!--Social tags-->
+    <div id="social">
+        <ul>
+            <li><a href="https://twitter.com/PaxtonSports" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/paxton.gordon.5/" target="_blank" id="facebook"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/paxton__gordon/" target="_blank" id="instagram"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <!--Main Text-->
+    <div id="main-text">
+        <p>
+            For the last 5 years K-State has been experiencing a decline in its overall enrollment, and despite many efforts from the university to change the decline the skid only continues as <a href="https://www.k-state.edu/registrar/statistics/enrbyyr.html">2019</a> showed another decrease in enrollment.
+        </p>
+    </div>
+
+      <!-- your first section -->
+      <h3>Fall Enrollment through the Years</h3>
+    <!--First Chart-->
+    <figure class="highcharts-figure">
+        <div id="line-1"></div>
+    </figure>
+    <script>
+    Highcharts.chart('line-1', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Enrollment Rates at Kansas State'
+        },
+        subtitle: {
+            text: '<a href="https://www.k-state.edu/pa/data/student/studentfb/totdemo.Fall2020.pdf">Source: K-State.com</a>'
+        },
+        xAxis: {
+            categories: ["2010", '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018','2019','2020']
+        },
+        yAxis: {
+            title: {
+                text: 'Enrollment'
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
+        series: [{
+            name: 'Full-Time',
+            data: [18851,19350,19605,	20275,	20549,	20741,	20156,	19359,	18838,	18124, 17070	]
+        }, {
+            name: 'Part-Time',
+            data: [4730,4238,	4258,	4103,	4032,	4025,	3623,	3436,	3383,	3595,3784]
+        }]
+    });
+    </script>
+<div id="main-text">
+    <p>
+        According to the K-State Enrollment statistics found on the Office of Registrars web page from the Fall semester of 2018-2019 to 2019-2020, we saw a 2.2% decrease in enrollment. The past few years have been seeing a steady drop in enrollment of around 2% while showing no signs of recovery.    
+    </p>
+</div>
+<div id="main-text">
+    <p>
+        While these statistics are a worrying trend after coronavirus ravaged the earth, colleges all around the United States are seeing drops and, K-State isn't exempt from this. According to the Office of Registrar, K-State enrollment dropped 4% this fall a loss of 865 incoming students.    </p>
+</div>
+<div id="main-text">
+    <p>
+        While many would consider this a worrying sign of the future Provost and Executive Vice President of Kansas State believes that the number could have been even worse.    </p>
+</div>
+
+<div id="main-text">
+    <p>
+    "I expected a larger enrollment decline following COVID, and the 4% decline was actually a positive sign relative to my expectations." 
+    </p>
+</div>
+
+<h3>Course Breakdown</h3>
+
+<!--Second Main text-->
+<div id="main-text">
+    <p>
+        While enrollment numbers are a big piece of the puzzle to understand when looking at an issue of this magnitude the smaller details are something that gets overshadowed. For example, when breaking down the individual colleges and their enrollment numbers we can start to see which majors are being the most affected by the lack of new students.    </p>
+</div>
+
+<!--Second chart-->
+<div id="container">
+<table id="dt-table"
+ style="text-align: left;width: 100%;">
+    <thead>
+        <tr>
+            <th>College</th>
+            <th>1990</th>
+            <th>1991</th>
+            <th>1992</th>
+            <th>1993</th>
+            <th>1994</th>
+            <th>1995</th>
+            <th>1996</th>
+            <th>1997</th>
+            <th>1998</th>
+            <th>1999</th>
+            <th>2000</th>
+            <th>2001</th>
+            <th>2002</th>
+            <th>2003</th>
+            <th>2004</th>
+            <th>2005</th>
+            <th>2006</th>
+            <th>2007</th>
+            <th>2008</th>
+            <th>2009</th>
+            <th>2010</th>
+            <th>2011</th>
+            <th>2012</th>
+            <th>2013</th>
+            <th>2014</th>
+            <th>2015</th>
+            <th>2016</th>
+            <th>2017</th>
+            <th>2018</th>
+            <th>2019</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Agriculture</td>
+            <td>1826</td>
+            <td>1933</td>
+            <td>2064</td>
+            <td>2168</td>
+            <td>2191</td>
+            <td>2270</td>
+            <td>2280</td>
+            <td>2378</td>
+            <td>2472</td>
+            <td>2447</td>
+            <td>2406</td>
+            <td>2383</td>
+            <td>2252</td>
+            <td>2275</td>
+            <td>2281</td>
+            <td>2268</td>
+            <td>2316</td>
+            <td>2305</td>
+            <td>2381</td>
+            <td>2564</td>
+            <td>2722</td>
+            <td>2847</td>
+            <td>3007</td>
+            <td>3214</td>
+            <td>3341</td>
+            <td>3276</td>
+            <td>3252</td>
+            <td>3123</td>
+            <td>3029</td>
+            <td>2795</td>
+        </tr>
+        <tr>
+            <td>Architecture</td>
+            <td>959</td>
+            <td>904</td>
+            <td>796</td>
+            <td>793</td>
+            <td>806</td>
+            <td>786</td>
+            <td>787</td>
+            <td>812</td>
+            <td>795</td>
+            <td>790</td>
+            <td>810</td>
+            <td>810</td>
+            <td>810</td>
+            <td>816</td>
+            <td>772</td>
+            <td>773</td>
+            <td>740</td>
+            <td>765</td>
+            <td>760</td>
+            <td>791</td>
+            <td>799</td>
+            <td>738</td>
+            <td>739</td>
+            <td>717</td>
+            <td>720</td>
+            <td>724</td>
+            <td>711</td>
+            <td>742</td>
+            <td>766</td>
+            <td>749</td>
+        </tr>
+        <tr>
+            <td>Arts & Sciences</td>
+            <td>7287</td>
+            <td>7299</td>
+            <td>7664</td>
+            <td>7151</td>
+            <td>6981</td>
+            <td>6952</td>
+            <td>6701</td>
+            <td>6436</td>
+            <td>6641</td>
+            <td>6800</td>
+            <td>6729</td>
+            <td>6796</td>
+            <td>7034</td>
+            <td>7255</td>
+            <td>7590</td>
+            <td>7644</td>
+            <td>7447</td>
+            <td>7447</td>
+            <td>7436</td>
+            <td>7437</td>
+            <td>7605</td>
+            <td>7773</td>
+            <td>8031</td>
+            <td>7703</td>
+            <td>7060</td>
+            <td>6563</td>
+            <td>6255</td>
+            <td>5966</td>
+            <td>5641</td>
+            <td>5311</td>
+        </tr>
+        <tr>
+            <td>Business</td>
+            <td>3127</td>
+            <td>2925</td>
+            <td>2493</td>
+            <td>2262</td>
+            <td>2201</td>
+            <td>2197</td>
+            <td>2395</td>
+            <td>2589</td>
+            <td>2748</td>
+            <td>2928</td>
+            <td>3086</td>
+            <td>3212</td>
+            <td>3052</td>
+            <td>2898</td>
+            <td>2763</td>
+            <td>2570</td>
+            <td>2698</td>
+            <td>2688</td>
+            <td>2653</td>
+            <td>2614</td>
+            <td>2612</td>
+            <td>2670</td>
+            <td>2721</td>
+            <td>2781</td>
+            <td>2877</td>
+            <td>2788</td>
+            <td>2854</td>
+            <td>2818</td>
+            <td>2836</td>
+            <td>2735</td>
+        </tr>
+        <tr>
+            <td>Education</td>
+            <td>2453</td>
+            <td>2501</td>
+            <td>2583</td>
+            <td>2718</td>
+            <td>2683</td>
+            <td>2483</td>
+            <td>2390</td>
+            <td>2235</td>
+            <td>2251</td>
+            <td>2265</td>
+            <td>2422</td>
+            <td>2375</td>
+            <td>2554</td>
+            <td>2497</td>
+            <td>2417</td>
+            <td>2256</td>
+            <td>2154</td>
+            <td>2226</td>
+            <td>2023</td>
+            <td>2153</td>
+            <td>2049</td>
+            <td>2016</td>
+            <td>2042</td>
+            <td>1991</td>
+            <td>2075</td>
+            <td>2040</td>
+            <td>1968</td>
+            <td>1855</td>
+            <td>1875</td>
+            <td>2021</td>
+        </tr>
+        <tr>
+            <td>Engineering</td>
+            <td>2917</td>
+            <td>2911</td>
+            <td>2794</td>
+            <td>3027</td>
+            <td>3019</td>
+            <td>2960</td>
+            <td>2797</td>
+            <td>2877</td>
+            <td>2881</td>
+            <td>3006</td>
+            <td>3107</td>
+            <td>3197</td>
+            <td>3296</td>
+            <td>3292</td>
+            <td>3182</td>
+            <td>3130</td>
+            <td>3207</td>
+            <td>3352</td>
+            <td>3435</td>
+            <td>3510</td>
+            <td>3490</td>
+            <td>3518</td>
+            <td>3609</td>
+            <td>3763</td>
+            <td>3960</td>
+            <td>4117</td>
+            <td>4333</td>
+            <td>4158</td>
+            <td>4023</td>
+            <td>3819</td>
+        </tr>
+        <tr>
+            <td>Technology</td>
+            <td>0</td>
+            <td>0</td>
+            <td>752</td>
+            <td>710</td>
+            <td>722</td>
+            <td>744</td>
+            <td>701</td>
+            <td>615</td>
+            <td>750</td>
+            <td>788</td>
+            <td>803</td>
+            <td>929</td>
+            <td>1005</td>
+            <td>898</td>
+            <td>834</td>
+            <td>776</td>
+            <td>715</td>
+            <td>711</td>
+            <td>704</td>
+            <td>642</td>
+            <td>661</td>
+            <td>676</td>
+            <td>690</td>
+            <td>611</td>
+            <td>724</td>
+            <td>628</td>
+            <td>584</td>
+            <td>548</td>
+            <td>567</td>
+            <td>565</td>
+        </tr>
+        <tr>
+            <td>Veterinary Medicine</td>
+            <td>419</td>
+            <td>414</td>
+            <td>406</td>
+            <td>398</td>
+            <td>411</td>
+            <td>408</td>
+            <td>421</td>
+            <td>426</td>
+            <td>438</td>
+            <td>442</td>
+            <td>446</td>
+            <td>457</td>
+            <td>452</td>
+            <td>488</td>
+            <td>489</td>
+            <td>492</td>
+            <td>487</td>
+            <td>482</td>
+            <td>508</td>
+            <td>506</td>
+            <td>530</td>
+            <td>591</td>
+            <td>588</td>
+            <td>592</td>
+            <td>607</td>
+            <td>596</td>
+            <td>595</td>
+            <td>589</td>
+            <td>598</td>
+            <td>591</td>
+        </tr>
+    </tbody>
+</table>
+
+<div id="main-text">
+    <p>
+        In February 2019, President Richard Myers spoke with the <a href="https://www.cjonline.com/news/20190221/kansas-state-university-president-richard-myers-voices-concern-over-state-higher-education-cuts">Rotary Club of Topeka</a> about how decreasing state aid to universities K-State forced an increase of tuition to help fund university operations. Because of the recent increases, many would assume that's the main reason enrollment has been on the decline.
+    </p>
+</div>
+<div id="main-text">
+    <P>
+        According to the data gathered from the Office of Registrar, many colleges here at K-State took hits to their enrollment in the year 2019. The hardest-hit college was the College of Agriculture which saw a<a href="https://www.k-state.edu/pa/data/student/studentfb/totdemo.Fall2020.pdf">7.7%</a> decrease in its enrollment. The College of Arts and Sciences also saw a large decline in enrollment at 5.8%.
+</div>
+
+<div id="main-text">
+    <P>
+        Paige Gordon a student here at K-State has yet to respond to my comment.
+    </P>
+</div>
+
+<h3>Countermeasures</h3>
+
+<div id="main-text">
+    <p>
+       To counteract the recent downturn in enrollment K-State has been creating many programs to entice new students to the university like reducing the GPA requirements for the <a href="https://www.kstatecollegian.com/2019/04/02/scholarship-gpa-requirements-lowering-for-fall-2019-at-k-state/#:~:text=Effective%20in%20the%20fall%202020,3.0%20GPA%2C%20down%20from%203.5.&text=when%20their%20scholarships%20renew%20for,to%20be%20at%20a%203.0.">2020-2021 semester.  </a>
+    </p>
+</div>
+
+<div id="main-text">
+    <p>
+        With Covid-19 being the main proprietor for the most recent drop Taber outlined changes on the horizon  to address the issues.
+    </p>
+</div>
+
+<div id="main-text">
+    <P>
+    "We are improving communication with students through better technology; we have chosen not to increase tuition for several years in a row, and we have begun a Tuition and Fee Structure Task Force to develop a new tuition and fees approach; we have worked with faculty to provide the best educational experience that we can under current conditions."</P>
+</div>
+
+<div id="change"></div>
+<script>
+Highcharts.chart('change', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: '10 Years Change of Enrollment'
+    },
+    xAxis: {
+        categories: ["Agriculture",
+"Architecture",
+"Arts & Sciences",
+"Business",
+"Education",
+"Engineering",
+"Technology",
+"Veterinary Medicine"]
+    },
+    credits: {
+        enabled: false
+    },
+    tooltip:{
+        pointFormat: '{series.name}: <b>{point.y}</b><br/>',
+        valueSuffix: '%',
+        shared: true
+    },
+    series: [{
+        name: 'One Year Change',
+        data: [-8,-2,-6,-4,8,-5,0.00,-1]
+    }, {
+        name: '10 Year Change',
+        data: [3,-6,-30,5,-1,9,-15,12]
+    }]
+});
+</script>
+<script>
+    Highcharts.mapChart('map', {
+
+chart: {
+    map: 'countries/us/us-ks-all'
+},
+
+title: {
+    text: 'Highmaps basic lat/lon demo'
+},
+
+mapNavigation: {
+    enabled: true
+},
+
+tooltip: {
+    headerFormat: '',
+    pointFormat: '<b>{point.name}</b><br>Lat: {point.lat}<br> Lon: {point.lon} <br> Enrollment:{point.enrollment}'
+},
+
+series: [{
+    // Use the us-ks-all map with no data as a basemap
+    name: 'Basemap',
+    borderColor: '#000000',
+    nullColor: '#EBFF00',
+    showInLegend: false
+}, {
+    name: 'Separators',
+    type: 'mapline',
+    nullColor: '#707070',
+    showInLegend: false,
+    enableMouseTracking: false
+}, {
+    // Specify points using lat/lon
+    type: 'mappoint',
+    name: 'Cities',
+    color: Highcharts.getOptions().colors[1],
+    data: [{
+        name: 'Kansas State',
+        lat: 39.197427050417424,
+        lon: -96.58473563057946,
+        enrollment: 21612
+    }, {
+        name: 'University of Kansas',
+        lat: 38.954328802911114,
+        lon: -95.25572330020871,
+        enrollment: 28447
+    }, {
+        name: 'Emporia State University',
+        lat: 38.41638977343985,
+        lon: -96.17927640175921,
+        enrollment: 5732
+    }, {
+        name: 'Wichita State University',
+        lat: 37.71867062685693,
+        lon: -97.29430233431547,
+        enrollment:15081
+    }, {
+        dataLabels: {
+            align: 'left',
+            x: 5,
+            verticalAlign: 'middle'
+        }
+    }]
+}]
+});
+</script> 
+
+<div id="main-text">
+    <P>
+        Karen Goos Vice Provost for Enrollment Management has yet to commit
+    </P>
+</div>
+
+<div>
+    <P>
+        Methodology: All data was collected from the Kansas State <a href="https://www.k-state.edu/pa/data/student/studentfb/totdemo.Fall2020.pdf">Office of Registrar</a> and cleaned on a <a href="https://docs.google.com/spreadsheets/d/1eZB0VZoqizcH2sMHchpfPS1WzMspdWgWNqMeBmg6BIs/edit#gid=1211240653">Google spread sheet</a>. These statistics provide information on each college is being affected by the recent enrollment drop. The very first graphic was created to detail the undergraduate and graduate enrollment through the years.
+    </P>
+</div>
+
+<div class="fb-share-button" data-href="https://www.facebook.com/paxton.gordon.5/" data-layout="button_count"
+    data-size="small"><a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+        class="fb-xfbml-parse-ignore">Share</a></div>
+
+        
+</body>
+</html>
